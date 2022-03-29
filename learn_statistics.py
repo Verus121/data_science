@@ -1,6 +1,9 @@
 from matplotlib import pyplot as plt
 import statistics as stats
 
+# Example of using the statistics built-in module
+# And my own statistics 
+
 def my_mean(lst):
     return sum(lst)/len(lst)
 
@@ -21,7 +24,7 @@ print( stats.mean(normalD100) )
 print( stats.median(normalD100) )
 print( max(normalD100) - min(normalD100) )
 
-print( quantile(normalD100, 0.75) )
+print( quantile(normalD100, 0.75) )     
 print( quantile(normalD100, 0.25) )
 print( interquartile_range(normalD100) )
 
